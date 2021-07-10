@@ -60,7 +60,7 @@ const templatefoot = document.createElement('template');
 templatefoot.innerHTML = `
 <link type="text/css" rel="stylesheet" href="media/css/ss.css">
 <footer>
-<p>I hope you enjoyed your time on my site!<nav><i><a href="changelog.txt" title="Click to see changelog">Changelog</a></i></nav></p>
+<p>I hope you enjoyed your time on my site!<nav><i><a href="https://github.com/dumbuz/dumbuzis.gay/commits/main" title="Click to see changelog">Changelog</a></i></nav></p>
 </footer>
 `
 
