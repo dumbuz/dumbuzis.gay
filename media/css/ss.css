@@ -101,13 +101,13 @@ nav.navBar a:hover {
     height: 4em;
 }
 
-@media (min-width: 93.75em) {
+@media (min-width: 77em) {
     .nav-toggle-label {
         display: none;
     }
     header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(500px, 3fr) 1fr;
+        grid-template-columns: 1fr auto minmax(500px, 5fr) 1fr;
     }
 
     .nav-logo {
