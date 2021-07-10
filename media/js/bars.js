@@ -6,7 +6,7 @@ templatenav.innerHTML = `
   ><img
       title="Home"
       class="nav-logo"
-      src="media/images/signature.svg"
+      src="media/files/images/signature.svg"
       /></a
   ><input type="checkbox" class="nav-toggle" id="nav-toggle" />
   <nav class="navBar">
