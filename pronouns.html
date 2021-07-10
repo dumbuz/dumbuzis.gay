@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pronouns // dumbuz' site</title>
+        <link type="image/ico" rel="icon" href="favicon.ico">
+        <link type="text/css" rel="stylesheet" href="media/css/ss.css">
+        <script src="media/js/bars.js"></script>
+        <style>
+            .column {
+                flex-grow: 1;
+                max-width: 500px;
+                padding: 10px;
+            }
+
+            .row {
+                display: flex;
+            }
+
+            @media screen and (max-width: 700px) {
+                .row {
+                    flex-direction: column;
+                }
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                margin: 0.25em;
+            }
+            li.incolumn img,
+            li.incolumn label {
+                margin-right: 0.5em;
+            }
+
+            input.collapsible {
+                display: none;
+            }
+
+            li.incolumn label {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+
+            .collapsibleContent {
+                opacity: 0;
+                display: block;
+                padding: 0.25em;
+                margin-bottom: 0.1em;
+                background-color: #00000030;
+                transition: opacity 200ms ease-in-out;
+            }
+            input.collapsible:checked ~ .collapsibleContent {
+                opacity: 1;
+            }
+
+            img.roundedFlag {
+                border-radius: 0.15em;
+            }
+            li img {
+                margin-right: 0.25em;
+            }
+        </style>
+    </head>
+    <nav-bar></nav-bar>
+    <body><div class="content">
+    <h1>Pronouns</h1>
+    <p>Those weird grammar things that 90%+ of people use.<br>What a coincidence that I do too!<br><br></p>
+    <img class="pfp" src="media/images/pfp/picrew-e124e846e45f8b79cab867bef1da7f81.png" width="256" height="256" title="Here would be a good place to put a profile picture, right?">
+    <h2>Flags</h2>
+    <ul>
+        <li><img class="roundedFlag" src="media/images/flags/transgender-flag.svg" style="height: 1em; width: auto;"><b>Transgender</b></li>
+        <li><img class="roundedFlag" src="media/images/flags/nonbinary-flag.svg" style="height: 1em; width: auto;"><b>Nonbinary</b></li>
+        <li><img class="roundedFlag" src="media/images/flags/androphile-flag.svg" style="height: 1em; width: auto;"><b>Androphile</b></li>
+        <li><img class="roundedFlag" src="media/images/flags/better-intersex-progress-flag.svg" style="height: 1em; width: auto;"><b>Intersex Progress Flag</b><i>&nbsp;-&nbsp;Note: I designed this, this is not the official intersex progress flag</i></li>
+    </ul>
+    <div class="row">
+        <div class="column">
+            <h2>Names</h2>
+
+            <ul>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ2Mi4zIDYyLjZDNDA3LjUgMTUuOSAzMjYgMjQuMyAyNzUuNyA3Ni4yTDI1NiA5Ni41bC0xOS43LTIwLjNDMTg2LjEgMjQuMyAxMDQuNSAxNS45IDQ5LjcgNjIuNmMtNjIuOCA1My42LTY2LjEgMTQ5LjgtOS45IDIwNy45bDE5My41IDE5OS44YzEyLjUgMTIuOSAzMi44IDEyLjkgNDUuMyAwbDE5My41LTE5OS44YzU2LjMtNTguMSA1My0xNTQuMy05LjgtMjA3Ljl6Ii8+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Yes!"><b>Frostbyte</b></li>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ2Mi4zIDYyLjZDNDA3LjUgMTUuOSAzMjYgMjQuMyAyNzUuNyA3Ni4yTDI1NiA5Ni41bC0xOS43LTIwLjNDMTg2LjEgMjQuMyAxMDQuNSAxNS45IDQ5LjcgNjIuNmMtNjIuOCA1My42LTY2LjEgMTQ5LjgtOS45IDIwNy45bDE5My41IDE5OS44YzEyLjUgMTIuOSAzMi44IDEyLjkgNDUuMyAwbDE5My41LTE5OS44YzU2LjMtNTguMSA1My0xNTQuMy05LjgtMjA3Ljl6Ii8+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Yes!"><b>Arden</b></li>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ2Mi4zIDYyLjZDNDA3LjUgMTUuOSAzMjYgMjQuMyAyNzUuNyA3Ni4yTDI1NiA5Ni41bC0xOS43LTIwLjNDMTg2LjEgMjQuMyAxMDQuNSAxNS45IDQ5LjcgNjIuNmMtNjIuOCA1My42LTY2LjEgMTQ5LjgtOS45IDIwNy45bDE5My41IDE5OS44YzEyLjUgMTIuOSAzMi44IDEyLjkgNDUuMyAwbDE5My41LTE5OS44YzU2LjMtNTguMSA1My0xNTQuMy05LjgtMjA3Ljl6Ii8+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Yes!"><b>dumbuz</b></li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Pronouns</h2>
+
+            <ul>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ2Mi4zIDYyLjZDNDA3LjUgMTUuOSAzMjYgMjQuMyAyNzUuNyA3Ni4yTDI1NiA5Ni41bC0xOS43LTIwLjNDMTg2LjEgMjQuMyAxMDQuNSAxNS45IDQ5LjcgNjIuNmMtNjIuOCA1My42LTY2LjEgMTQ5LjgtOS45IDIwNy45bDE5My41IDE5OS44YzEyLjUgMTIuOSAzMi44IDEyLjkgNDUuMyAwbDE5My41LTE5OS44YzU2LjMtNTguMSA1My0xNTQuMy05LjgtMjA3Ljl6Ii8+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Yes!">
+            <input type="checkbox" id="xeXemCheck" class="collapsible">
+            <label for="xeXemCheck"><b>xe/xem</b></label>
+            <div class="collapsibleContent">Xe/Xem/Xyr/Xyrs/Xyrself - <i>zee/zem/zeer/zeers/zeerself</i> - <a href="https://pronouny.xyz/pronouns/5db88e29a5df700015a485ee" target="_blank">Learn more</a></div>
+            </li>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ2Mi4zIDYyLjZDNDA3LjUgMTUuOSAzMjYgMjQuMyAyNzUuNyA3Ni4yTDI1NiA5Ni41bC0xOS43LTIwLjNDMTg2LjEgMjQuMyAxMDQuNSAxNS45IDQ5LjcgNjIuNmMtNjIuOCA1My42LTY2LjEgMTQ5LjgtOS45IDIwNy45bDE5My41IDE5OS44YzEyLjUgMTIuOSAzMi44IDEyLjkgNDUuMyAwbDE5My41LTE5OS44YzU2LjMtNTguMSA1My0xNTQuMy05LjgtMjA3Ljl6Ii8+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Yes!">
+            <input type="checkbox" id="norMalCheck" class="collapsible">
+            <label for="norMalCheck"><b>nor/mal</b></label>
+            <div class="collapsibleContent">Nor/Mal/Mal/Mals/Malself - <i>nor/mall/mall/malls/mall self</i> - <a href="https://www.pronouny.xyz/pronouns/609b40728d067700133ac464" target="_blank">Learn more</a></div>
+            </li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>Words</h2>
+
+            <ul>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTQ2Mi4zIDYyLjZDNDA3LjUgMTUuOSAzMjYgMjQuMyAyNzUuNyA3Ni4yTDI1NiA5Ni41bC0xOS43LTIwLjNDMTg2LjEgMjQuMyAxMDQuNSAxNS45IDQ5LjcgNjIuNmMtNjIuOCA1My42LTY2LjEgMTQ5LjgtOS45IDIwNy45bDE5My41IDE5OS44YzEyLjUgMTIuOSAzMi44IDEyLjkgNDUuMyAwbDE5My41LTE5OS44YzU2LjMtNTguMSA1My0xNTQuMy05LjgtMjA3Ljl6Ii8+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Yes!"><b>mx.</b></li>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhciIgZGF0YS1pY29uPSJ0aHVtYnMtdXAiIHJvbGU9ImltZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgY2xhc3M9InN2Zy1pbmxpbmUtLWZhIGZhLXRodW1icy11cCBmYS13LTE2IGZhLTl4Ij48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNDY2LjI3IDI4Ni42OUM0NzUuMDQgMjcxLjg0IDQ4MCAyNTYgNDgwIDIzNi44NWMwLTQ0LjAxNS0zNy4yMTgtODUuNTgtODUuODItODUuNThIMzU3LjdjNC45Mi0xMi44MSA4Ljg1LTI4LjEzIDguODUtNDYuNTRDMzY2LjU1IDMxLjkzNiAzMjguODYgMCAyNzEuMjggMGMtNjEuNjA3IDAtNTguMDkzIDk0LjkzMy03MS43NiAxMDguNi0yMi43NDcgMjIuNzQ3LTQ5LjYxNSA2Ni40NDctNjguNzYgODMuNEgzMmMtMTcuNjczIDAtMzIgMTQuMzI3LTMyIDMydjI0MGMwIDE3LjY3MyAxNC4zMjcgMzIgMzIgMzJoNjRjMTQuODkzIDAgMjcuNDA4LTEwLjE3NCAzMC45NzgtMjMuOTUgNDQuNTA5IDEuMDAxIDc1LjA2IDM5Ljk0IDE3Ny44MDIgMzkuOTQgNy4yMiAwIDE1LjIyLjAxIDIyLjIyLjAxIDc3LjExNyAwIDExMS45ODYtMzkuNDIzIDExMi45NC05NS4zMyAxMy4zMTktMTguNDI1IDIwLjI5OS00My4xMjIgMTcuMzQtNjYuOTkgOS44NTQtMTguNDUyIDEzLjY2NC00MC4zNDMgOC45OS02Mi45OXptLTYxLjc1IDUzLjgzYzEyLjU2IDIxLjEzIDEuMjYgNDkuNDEtMTMuOTQgNTcuNTcgNy43IDQ4Ljc4LTE3LjYwOCA2NS45LTUzLjEyIDY1LjloLTM3LjgyYy03MS42MzkgMC0xMTguMDI5LTM3LjgyLTE3MS42NC0zNy44MlYyNDBoMTAuOTJjMjguMzYgMCA2Ny45OC03MC44OSA5NC41NC05Ny40NiAyOC4zNi0yOC4zNiAxOC45MS03NS42MyAzNy44Mi05NC41NCA0Ny4yNyAwIDQ3LjI3IDMyLjk4IDQ3LjI3IDU2LjczIDAgMzkuMTctMjguMzYgNTYuNzItMjguMzYgOTQuNTRoMTAzLjk5YzIxLjExIDAgMzcuNzMgMTguOTEgMzcuODIgMzcuODIuMDkgMTguOS0xMi44MiAzNy44MS0yMi4yNyAzNy44MSAxMy40ODkgMTQuNTU1IDE2LjM3MSA0NS4yMzYtNS4yMSA2NS42MnpNODggNDMyYzAgMTMuMjU1LTEwLjc0NSAyNC0yNCAyNHMtMjQtMTAuNzQ1LTI0LTI0IDEwLjc0NS0yNCAyNC0yNCAyNCAxMC43NDUgMjQgMjR6IiBjbGFzcz0iIj48L3BhdGg+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Okay."><span>ms.</span></li>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhciIgZGF0YS1pY29uPSJ0aHVtYnMtdXAiIHJvbGU9ImltZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgY2xhc3M9InN2Zy1pbmxpbmUtLWZhIGZhLXRodW1icy11cCBmYS13LTE2IGZhLTl4Ij48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNDY2LjI3IDI4Ni42OUM0NzUuMDQgMjcxLjg0IDQ4MCAyNTYgNDgwIDIzNi44NWMwLTQ0LjAxNS0zNy4yMTgtODUuNTgtODUuODItODUuNThIMzU3LjdjNC45Mi0xMi44MSA4Ljg1LTI4LjEzIDguODUtNDYuNTRDMzY2LjU1IDMxLjkzNiAzMjguODYgMCAyNzEuMjggMGMtNjEuNjA3IDAtNTguMDkzIDk0LjkzMy03MS43NiAxMDguNi0yMi43NDcgMjIuNzQ3LTQ5LjYxNSA2Ni40NDctNjguNzYgODMuNEgzMmMtMTcuNjczIDAtMzIgMTQuMzI3LTMyIDMydjI0MGMwIDE3LjY3MyAxNC4zMjcgMzIgMzIgMzJoNjRjMTQuODkzIDAgMjcuNDA4LTEwLjE3NCAzMC45NzgtMjMuOTUgNDQuNTA5IDEuMDAxIDc1LjA2IDM5Ljk0IDE3Ny44MDIgMzkuOTQgNy4yMiAwIDE1LjIyLjAxIDIyLjIyLjAxIDc3LjExNyAwIDExMS45ODYtMzkuNDIzIDExMi45NC05NS4zMyAxMy4zMTktMTguNDI1IDIwLjI5OS00My4xMjIgMTcuMzQtNjYuOTkgOS44NTQtMTguNDUyIDEzLjY2NC00MC4zNDMgOC45OS02Mi45OXptLTYxLjc1IDUzLjgzYzEyLjU2IDIxLjEzIDEuMjYgNDkuNDEtMTMuOTQgNTcuNTcgNy43IDQ4Ljc4LTE3LjYwOCA2NS45LTUzLjEyIDY1LjloLTM3LjgyYy03MS42MzkgMC0xMTguMDI5LTM3LjgyLTE3MS42NC0zNy44MlYyNDBoMTAuOTJjMjguMzYgMCA2Ny45OC03MC44OSA5NC41NC05Ny40NiAyOC4zNi0yOC4zNiAxOC45MS03NS42MyAzNy44Mi05NC41NCA0Ny4yNyAwIDQ3LjI3IDMyLjk4IDQ3LjI3IDU2LjczIDAgMzkuMTctMjguMzYgNTYuNzItMjguMzYgOTQuNTRoMTAzLjk5YzIxLjExIDAgMzcuNzMgMTguOTEgMzcuODIgMzcuODIuMDkgMTguOS0xMi44MiAzNy44MS0yMi4yNyAzNy44MSAxMy40ODkgMTQuNTU1IDE2LjM3MSA0NS4yMzYtNS4yMSA2NS42MnpNODggNDMyYzAgMTMuMjU1LTEwLjc0NSAyNC0yNCAyNHMtMjQtMTAuNzQ1LTI0LTI0IDEwLjc0NS0yNCAyNC0yNCAyNCAxMC43NDUgMjQgMjR6IiBjbGFzcz0iIj48L3BhdGg+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Okay."><span>ma'am</span></li>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhciIgZGF0YS1pY29uPSJ0aHVtYnMtdXAiIHJvbGU9ImltZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgY2xhc3M9InN2Zy1pbmxpbmUtLWZhIGZhLXRodW1icy11cCBmYS13LTE2IGZhLTl4Ij48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNNDY2LjI3IDI4Ni42OUM0NzUuMDQgMjcxLjg0IDQ4MCAyNTYgNDgwIDIzNi44NWMwLTQ0LjAxNS0zNy4yMTgtODUuNTgtODUuODItODUuNThIMzU3LjdjNC45Mi0xMi44MSA4Ljg1LTI4LjEzIDguODUtNDYuNTRDMzY2LjU1IDMxLjkzNiAzMjguODYgMCAyNzEuMjggMGMtNjEuNjA3IDAtNTguMDkzIDk0LjkzMy03MS43NiAxMDguNi0yMi43NDcgMjIuNzQ3LTQ5LjYxNSA2Ni40NDctNjguNzYgODMuNEgzMmMtMTcuNjczIDAtMzIgMTQuMzI3LTMyIDMydjI0MGMwIDE3LjY3MyAxNC4zMjcgMzIgMzIgMzJoNjRjMTQuODkzIDAgMjcuNDA4LTEwLjE3NCAzMC45NzgtMjMuOTUgNDQuNTA5IDEuMDAxIDc1LjA2IDM5Ljk0IDE3Ny44MDIgMzkuOTQgNy4yMiAwIDE1LjIyLjAxIDIyLjIyLjAxIDc3LjExNyAwIDExMS45ODYtMzkuNDIzIDExMi45NC05NS4zMyAxMy4zMTktMTguNDI1IDIwLjI5OS00My4xMjIgMTcuMzQtNjYuOTkgOS44NTQtMTguNDUyIDEzLjY2NC00MC4zNDMgOC45OS02Mi45OXptLTYxLjc1IDUzLjgzYzEyLjU2IDIxLjEzIDEuMjYgNDkuNDEtMTMuOTQgNTcuNTcgNy43IDQ4Ljc4LTE3LjYwOCA2NS45LTUzLjEyIDY1LjloLTM3LjgyYy03MS42MzkgMC0xMTguMDI5LTM3LjgyLTE3MS42NC0zNy44MlYyNDBoMTAuOTJjMjguMzYgMCA2Ny45OC03MC44OSA5NC41NC05Ny40NiAyOC4zNi0yOC4zNiAxOC45MS03NS42MyAzNy44Mi05NC41NCA0Ny4yNyAwIDQ3LjI3IDMyLjk4IDQ3LjI3IDU2LjczIDAgMzkuMTctMjguMzYgNTYuNzItMjguMzYgOTQuNTRoMTAzLjk5YzIxLjExIDAgMzcuNzMgMTguOTEgMzcuODIgMzcuODIuMDkgMTguOS0xMi44MiAzNy44MS0yMi4yNyAzNy44MSAxMy40ODkgMTQuNTU1IDE2LjM3MSA0NS4yMzYtNS4yMSA2NS42MnpNODggNDMyYzAgMTMuMjU1LTEwLjc0NSAyNC0yNCAyNHMtMjQtMTAuNzQ1LTI0LTI0IDEwLjc0NS0yNCAyNC0yNCAyNCAxMC43NDUgMjQgMjR6IiBjbGFzcz0iIj48L3BhdGg+PC9zdmc+"
+            style="height: 1em; width: auto; color: white;" title="Okay."><span>madam</span></li>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhciIgZGF0YS1pY29uPSJ0aHVtYnMtZG93biIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBjbGFzcz0ic3ZnLWlubGluZS0tZmEgZmEtdGh1bWJzLWRvd24gZmEtdy0xNiBmYS05eCI+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTQ2Ni4yNyAyMjUuMzFjNC42NzQtMjIuNjQ3Ljg2NC00NC41MzgtOC45OS02Mi45OSAyLjk1OC0yMy44NjgtNC4wMjEtNDguNTY1LTE3LjM0LTY2Ljk5QzQzOC45ODYgMzkuNDIzIDQwNC4xMTcgMCAzMjcgMGMtNyAwLTE1IC4wMS0yMi4yMi4wMUMyMDEuMTk1LjAxIDE2OC45OTcgNDAgMTI4IDQwaC0xMC44NDVjLTUuNjQtNC45NzUtMTMuMDQyLTgtMjEuMTU1LThIMzJDMTQuMzI3IDMyIDAgNDYuMzI3IDAgNjR2MjQwYzAgMTcuNjczIDE0LjMyNyAzMiAzMiAzMmg2NGMxMS44NDIgMCAyMi4xNzUtNi40MzggMjcuNzA4LTE2aDcuMDUyYzE5LjE0NiAxNi45NTMgNDYuMDEzIDYwLjY1MyA2OC43NiA4My40IDEzLjY2NyAxMy42NjcgMTAuMTUzIDEwOC42IDcxLjc2IDEwOC42IDU3LjU4IDAgOTUuMjctMzEuOTM2IDk1LjI3LTEwNC43MyAwLTE4LjQxLTMuOTMtMzMuNzMtOC44NS00Ni41NGgzNi40OGM0OC42MDIgMCA4NS44Mi00MS41NjUgODUuODItODUuNTggMC0xOS4xNS00Ljk2LTM0Ljk5LTEzLjczLTQ5Ljg0ek02NCAyOTZjLTEzLjI1NSAwLTI0LTEwLjc0NS0yNC0yNHMxMC43NDUtMjQgMjQtMjQgMjQgMTAuNzQ1IDI0IDI0LTEwLjc0NSAyNC0yNCAyNHptMzMwLjE4IDE2LjczSDI5MC4xOWMwIDM3LjgyIDI4LjM2IDU1LjM3IDI4LjM2IDk0LjU0IDAgMjMuNzUgMCA1Ni43My00Ny4yNyA1Ni43My0xOC45MS0xOC45MS05LjQ2LTY2LjE4LTM3LjgyLTk0LjU0QzIwNi45IDM0Mi44OSAxNjcuMjggMjcyIDEzOC45MiAyNzJIMTI4Vjg1LjgzYzUzLjYxMSAwIDEwMC4wMDEtMzcuODIgMTcxLjY0LTM3LjgyaDM3LjgyYzM1LjUxMiAwIDYwLjgyIDE3LjEyIDUzLjEyIDY1LjkgMTUuMiA4LjE2IDI2LjUgMzYuNDQgMTMuOTQgNTcuNTcgMjEuNTgxIDIwLjM4NCAxOC42OTkgNTEuMDY1IDUuMjEgNjUuNjIgOS40NSAwIDIyLjM2IDE4LjkxIDIyLjI3IDM3LjgxLS4wOSAxOC45MS0xNi43MSAzNy44Mi0zNy44MiAzNy44MnoiIGNsYXNzPSIiPjwvcGF0aD48L3N2Zz4="
+            style="height: 1em; width: auto; color: white;" title="No. Never."><span>mr.</span></li>
+            <li class="incolumn"><img
+            src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhciIgZGF0YS1pY29uPSJ0aHVtYnMtZG93biIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBjbGFzcz0ic3ZnLWlubGluZS0tZmEgZmEtdGh1bWJzLWRvd24gZmEtdy0xNiBmYS05eCI+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTQ2Ni4yNyAyMjUuMzFjNC42NzQtMjIuNjQ3Ljg2NC00NC41MzgtOC45OS02Mi45OSAyLjk1OC0yMy44NjgtNC4wMjEtNDguNTY1LTE3LjM0LTY2Ljk5QzQzOC45ODYgMzkuNDIzIDQwNC4xMTcgMCAzMjcgMGMtNyAwLTE1IC4wMS0yMi4yMi4wMUMyMDEuMTk1LjAxIDE2OC45OTcgNDAgMTI4IDQwaC0xMC44NDVjLTUuNjQtNC45NzUtMTMuMDQyLTgtMjEuMTU1LThIMzJDMTQuMzI3IDMyIDAgNDYuMzI3IDAgNjR2MjQwYzAgMTcuNjczIDE0LjMyNyAzMiAzMiAzMmg2NGMxMS44NDIgMCAyMi4xNzUtNi40MzggMjcuNzA4LTE2aDcuMDUyYzE5LjE0NiAxNi45NTMgNDYuMDEzIDYwLjY1MyA2OC43NiA4My40IDEzLjY2NyAxMy42NjcgMTAuMTUzIDEwOC42IDcxLjc2IDEwOC42IDU3LjU4IDAgOTUuMjctMzEuOTM2IDk1LjI3LTEwNC43MyAwLTE4LjQxLTMuOTMtMzMuNzMtOC44NS00Ni41NGgzNi40OGM0OC42MDIgMCA4NS44Mi00MS41NjUgODUuODItODUuNTggMC0xOS4xNS00Ljk2LTM0Ljk5LTEzLjczLTQ5Ljg0ek02NCAyOTZjLTEzLjI1NSAwLTI0LTEwLjc0NS0yNC0yNHMxMC43NDUtMjQgMjQtMjQgMjQgMTAuNzQ1IDI0IDI0LTEwLjc0NSAyNC0yNCAyNHptMzMwLjE4IDE2LjczSDI5MC4xOWMwIDM3LjgyIDI4LjM2IDU1LjM3IDI4LjM2IDk0LjU0IDAgMjMuNzUgMCA1Ni43My00Ny4yNyA1Ni43My0xOC45MS0xOC45MS05LjQ2LTY2LjE4LTM3LjgyLTk0LjU0QzIwNi45IDM0Mi44OSAxNjcuMjggMjcyIDEzOC45MiAyNzJIMTI4Vjg1LjgzYzUzLjYxMSAwIDEwMC4wMDEtMzcuODIgMTcxLjY0LTM3LjgyaDM3LjgyYzM1LjUxMiAwIDYwLjgyIDE3LjEyIDUzLjEyIDY1LjkgMTUuMiA4LjE2IDI2LjUgMzYuNDQgMTMuOTQgNTcuNTcgMjEuNTgxIDIwLjM4NCAxOC42OTkgNTEuMDY1IDUuMjEgNjUuNjIgOS40NSAwIDIyLjM2IDE4LjkxIDIyLjI3IDM3LjgxLS4wOSAxOC45MS0xNi43MSAzNy44Mi0zNy44MiAzNy44MnoiIGNsYXNzPSIiPjwvcGF0aD48L3N2Zz4="
+            style="height: 1em; width: auto; color: white;" title="No. Never."><span>sir</span></li>
+            </ul>
+        </div>
+    </div>
+    </div></body>
+    <foot-bar></foot-bar>
+</html>

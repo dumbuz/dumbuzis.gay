@@ -1,0 +1,65 @@
+July 10th 2021
+
+-Imported to git
+
+July 9th 2021
+
+-Put flags on pronouns page
+-slightly modified layout of navbar to accomodate pronouns page
+-finally the FUKCING pronouns page
+
+July 8th 2021 Mountain Time
+
+-Slightly changed layout of navbar to accomodate site map
+-Added site map
+
+July 7th 2021 Mountain Time
+
+-Renamed portfolio page to entertainment. This is so I can feel more comfortable putting more things on it that wouldn't usually go into a portfolio page.
+-portfolio.html is now a redirect to entertainment.html
+
+July 6th 2021 Mountain Time
+
+-Web page now supports Open Graph Protocol! (Most known for Discord/Telegram embeds)
+-Made most CSS reference (r)ems in an attempt to make the site more responsive
+-Hamburger menu now has a pointer cursor
+-Minor changes to Portfolio page
+ -Added IDs to art
+ -Added created text to art
+
+July 5th 2021 Mountain Time
+
+-Moved media/favicon.ico to /favicon.ico
+-Fixed issue where links would overlap with logo on small screens.
+-Portfolio page!
+-I have no idea why it broke, but when putting the footer into a js script, it no longer sticks to the bottom.
+-Took all nav/menubar content out and made it a web component. Now this website is not js free, but I got it working. WOOOOOOOOOO!
+note-What the ACTUAL fuck why does the css break if I take the parts only used in the navbar out and put them in a different stylesheet WHY
+-Declared UTF-8 encoding. Even though I only use US-ASCII chars, no errors when looking at the console is incredibly satisfying.
+-A whole 2 days later, I am putting the stylesheet as external, I am considering making a new page. The first will be pronouns.
+
+July 4th 2021 Mountain Time
+
+-Changed footer color to the same color as the menu bar.
+-Made text size browser default
+-Added RESPONSIVE menu bar. No JavaScript! Wooooo!
+
+Future:
+Make the logo a hamburger menu. -Note from 7/5, funny fucking joke loser
+
+July 3rd 2021 Mountain Time
+
+-Added footer links to a <nav> tag
+-fixed the bug where the margins decided to stop existing for LITERALLY no reason
+-Yeeted code from w3schools.com about collapsibles. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible
+-Added tooltip to changelog button
+-Made changelog once per day instead of every time a little thing was changed, organisation of changelog.
+-Fixed text "As of the last update of this page" to redirect people to the changelog.
+-Compressed favicon to 5KB from 100KB
+-Made the site stop requesting non-existent stylesheet.css
+-Added changelog
+-Made the background color softer (#101010 instead of #000000)
+
+Future:
+Eventually going to make the changelog an actual web page with collapsible elements! For now, and probably another couple updates, it'll stay like this.
+Menu bar
