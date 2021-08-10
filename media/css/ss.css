@@ -8,6 +8,10 @@ html {
 img.pfp {
     border-radius: 5%;
 }
+
+a{
+    text-decoration: none;
+}
 body {
     font-family: sans-serif;
     background-color: #101010;
